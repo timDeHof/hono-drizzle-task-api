@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "test": "LOG_LEVEL=silent DATABASE_URL=file:dev.db vitest run",
-    "build": "tsc"
+    "build": "tsc --watch"
   },
   "dependencies": {
     "@asteasolutions/zod-to-openapi": "^7.2.0",
